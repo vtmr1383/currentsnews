@@ -1,0 +1,23 @@
+{
+    "name": "vahidtalebi/currentsnews",
+    "description": "This is a package for get currents news.",
+    "authors": [
+        {
+            "name": "Vahid Talebi",
+            "email": "vtmr1383@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "VahidTalebi\\CurrentsNews\\": "src/"
+        }
+    },
+    "extera": {
+        "laravel": {
+            "providers": [
+                "VahidTalebi\\CurrentsNews\\CurrentsNewsServiceProvider"
+            ]
+        }
+    }
+}
